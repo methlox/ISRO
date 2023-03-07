@@ -1,6 +1,6 @@
 # About
 
-Redesigning India Space Research Organization official website as a personal project. 
+Redesigning India's Space Research Organization official website as a personal project. 
 
 ## Progress
 
