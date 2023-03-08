@@ -29,7 +29,7 @@ const Navbar = () => {
               <NavLinks>English</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks>Hindi</NavLinks>
+              <NavLinks>हिंदी</NavLinks>
             </NavItem>
           </NavItemL>
           <MobileIcon>
