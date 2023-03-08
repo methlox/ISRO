@@ -11,7 +11,7 @@ import {
 } from "./NavbarElements";
 
 import { FaBars } from "react-icons/fa";
-import Icon1 from "../../Media/isro.png";
+import Icon1 from "../../Media/ISRO-Color.svg";
 
 const Navbar = () => {
   return (
