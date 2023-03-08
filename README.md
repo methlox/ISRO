@@ -4,6 +4,11 @@ Redesigning India's Space Research Organization official website as a personal p
 
 ## Progress
 
+![image](https://user-images.githubusercontent.com/84025779/223855887-1ff26c9d-b547-4bbe-aaec-ca5aa4cbf260.png)
+![image](https://user-images.githubusercontent.com/84025779/223855813-c3fcd324-1c62-43f6-b08c-dca061cdb2b0.png)
+![image](https://user-images.githubusercontent.com/84025779/223855731-8440a381-91af-4e97-8791-4ef90037ab0c.png)
+
+
 
 ## Available Scripts
 
