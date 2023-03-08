@@ -38,22 +38,10 @@ export const Icon = styled.img`
   }
 `;
 
-// export const Navlogo = styled.div`
-//   color: #fff;
-//   justify-self: flex-start;
-//   cursor: pointer;
-//   font-size: 1.5rem;
-//   display: flex;
-//   align-items: center;
-//   margin-left: 24px;
-//   font-weight: bold;
-//   text-decoration: none;
-// `
-
 export const MobileIcon = styled.div`
   display: none; // shouldn't be displayed in laps, only in mobile applications
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1340px) {
     display: block;
     position: absolute;
     top: 12px;
@@ -72,7 +60,7 @@ export const NavMenu = styled.ul`
   text-align: center;
   margin-right: -742px;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1340px) {
     display: none;
   }
 `;
@@ -88,12 +76,12 @@ export const NavItemL = styled.li`
   text-align: center;
   margin-right: -42px;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 1340px) {
     display: none;
   }
 `;
 
-export const NavLinks = styled(LinkS)`
+export const NavLinks = styled.div`
   color: #fff;
   display: flex;
   align-items: center;
@@ -104,48 +92,5 @@ export const NavLinks = styled(LinkS)`
 
   &.active {
     border-bottom: 3px solid #f2b33d;
-  }
-`;
-
-export const NavLinksS = styled(LinkR)`
-  color: #fff;
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  padding: 0 1rem;
-  height: 100%;
-  cursor: pointer;
-
-  &.active {
-    border-bottom: 3px solid #f2b33d;
-  }
-`;
-
-export const NavBtn = styled.nav`
-  display: flex;
-  align-items: center;
-
-  @media screen and (max-width: 768px) {
-    display: none;
-  }
-`;
-
-export const NavBtnLink = styled(LinkR)`
-  border-radius: 50px;
-  background: #F2B33D;
-  white-space: nowrap;
-  padding: 10px 22px;
-  color: #010606;
-  font-size: 16px;
-  outline: none;
-  border: none;
-  cursor; pointer;
-  transition: all 0.2s ease-in-out;
-  text-decoration: none;
-
-  &:hover {
-    transition: all 0.2s ease-in-out;
-    background: #fff;
-    color: #010606;
   }
 `;

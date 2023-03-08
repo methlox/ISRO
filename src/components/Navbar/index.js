@@ -2,7 +2,6 @@ import React from "react";
 import {
   Nav,
   NavbarContainer,
-  //   Navlogo,
   MobileIcon,
   NavMenu,
   NavItem,
@@ -20,10 +19,6 @@ const Navbar = () => {
       <Nav>
         <NavbarContainer>
           <Icon src={Icon1} alt="isro logo" />
-          {/* <Navlogo>ISRO</Navlogo> */}
-          {/* <MobileIcon>
-            <FaBars />
-          </MobileIcon> */}
           <NavMenu>
             <NavItem>
               <NavLinks>Government of India</NavLinks>
