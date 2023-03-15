@@ -1,12 +1,15 @@
 import styled from 'styled-components';
 
-export const HeroContainer = styled.section`
+export const HeroSection = styled.section`
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  height: 500px;
-  background-color: #000;
+  min-height: 150vh;
+  background-image: url(${props => props.bgImage});
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #fff;
 `;
 
@@ -20,12 +23,12 @@ export const HeroTitle = styled.h1`
   margin-bottom: 1em;
 `;
 
-export const HeroDescription = styled.p`
+export const HeroSubtitle = styled.p`
   font-size: 1.5em;
   margin-bottom: 2em;
 `;
 
-export const HeroButton = styled.button`
+export const HeroCTA = styled.button`
   font-size: 1.2em;
   background-color: #fff;
   color: #000;
@@ -34,19 +37,10 @@ export const HeroButton = styled.button`
   border-radius: 4px;
   cursor: pointer;
   transition: all 0.3s ease;
-
-  &:hover {
-    background-color: #fff;
-    color: #f00;
-  }
 `;
 
 export const HeroImage = styled.div`
   max-width: 50%;
-  height: 100%;
-`;
-
-export const HeroImageBackground = styled.img`
-  height: 100%;
-  object-fit: cover;
+  height: 100vh;
+  overflow: hidden;
 `;
